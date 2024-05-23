@@ -9,6 +9,6 @@ This Python package provides a suite of encryption and decryption algorithms, in
 
 ## Features
 
-- **Customizable Encryption & Decryption**: Each class method allows for customizable keys or shifts, providing flexibility in encryption strength.
-- **Text Processing**: Handles uppercase conversion and exclusion of non-alphabetic characters to ensure consistent encryption and decryption processes.
-- **Modular Design**: The `Message` class is a base for the `plaintextMsg` and `ciphertextMsg` classes.
+- Each class method allows for customizable keys or shifts, letting you mix and match encrytion algorithms.
+- Automatically applies uppercase conversion and exclusion of non-alphabetic characters to keep the encryption and decryption processes consistent.
+- The `Message` class is a base for the `plaintextMsg` and `ciphertextMsg` classes.
